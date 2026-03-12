@@ -155,6 +155,10 @@ header {
 .events-header a {
     text-decoration: none;
     color: #00798A;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: middle;
 }
 
 .events-grid {
@@ -194,7 +198,7 @@ header {
     vertical-align: middle;
 }
 
-.date-time, .info {
+.date-time, .info, .date {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -213,5 +217,40 @@ header {
 .info img:last-child {
     margin-left: 15px;
     margin-right: 6px;
+}
+
+.online-events {
+    margin-top: 60px;
+}
+
+.events-header h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+.online {
+    position: relative;
+}
+
+.online::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 105px;
+    height: 20px;
+    background: url("../images/online_event.png") center no-repeat;
+}
+
+.event-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.date img {
+    width: 20px;
+    height: 20px;
 }
 
