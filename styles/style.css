@@ -254,3 +254,52 @@ header {
     height: 20px;
 }
 
+
+.join {
+    margin-top: 60px;
+    background: #97CAD114;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 85px;
+
+    padding: 40px 55px;
+    margin-bottom: 65px;
+}
+
+.join-text {
+
+}
+
+.join-text h2 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+.join-text p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.signup-btn {
+    background: #E32359;
+    border: none;
+    padding: 8px 66px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+
