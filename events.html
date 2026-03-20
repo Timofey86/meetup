@@ -99,10 +99,22 @@
         <aside class="events-sidebar">
             <p class="sidebar-caption">Find events near</p>
             <h2 class="sidebar-title">New York, NY</h2>
-
             <div class="map-card">
-                <img src="images/map-placeholder.png" alt="Map">
-                <button class="map-btn"><span>Browse in map</span><img src="images/expand-icon.svg" alt="expand icon"></button>
+
+                <iframe
+                        class="map-frame"
+                        src="https://www.google.com/maps?q=New+York&output=embed">
+                </iframe>
+
+                <a
+                        class="map-btn"
+                        href="https://www.google.com/maps?q=New+York"
+                        target="_blank"
+                >
+                    <span>Browse in map</span>
+                    <img src="images/expand-icon.svg" alt="">
+                </a>
+
             </div>
         </aside>
     </div>
