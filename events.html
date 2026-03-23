@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/mobile.css">
     <title>Events</title>
 </head>
 <body>
@@ -57,40 +59,48 @@
 
             <div class="filters">
 
-                <select id="typeFilter" class="filter-select">
-                    <option value="all">Any type</option>
-                    <option value="online">Online</option>
-                    <option value="offline">Offline</option>
-                </select>
+                <div class="select-wrapper">
+                    <select id="typeFilter" class="filter-select">
+                        <option value="all">Any type</option>
+                        <option value="online">Online</option>
+                        <option value="offline">Offline</option>
+                    </select>
+                </div>
 
-                <select id="distanceFilter" class="filter-select">
-                    <option value="all">Any distance</option>
-                    <option value="5">5 km</option>
-                    <option value="10">10 km</option>
-                    <option value="15">15 km</option>
-                    <option value="25">25 km</option>
-                    <option value="50">50 km</option>
-                    <option value="75">75 km</option>
-                    <option value="100">100 km</option>
-                </select>
+                <div class="select-wrapper">
+                    <select id="distanceFilter" class="filter-select">
+                        <option value="all">Any distance</option>
+                        <option value="5">5 km</option>
+                        <option value="10">10 km</option>
+                        <option value="15">15 km</option>
+                        <option value="25">25 km</option>
+                        <option value="50">50 km</option>
+                        <option value="75">75 km</option>
+                        <option value="100">100 km</option>
+                    </select>
+                </div>
 
-                <select id="categoryFilter" class="filter-select">
-                    <option value="all">Any category</option>
-                    <option value="Social Activities">Social Activities</option>
-                    <option value="Hobbies and Passions">Hobbies and Passions</option>
-                    <option value="Health and Wellbeing">Health and Wellbeing</option>
-                    <option value="Business">Business</option>
-                    <option value="Technology">Technology</option>
-                </select>
-                <select id="dayFilter" class="filter-select">
-                    <option value="all">Any day</option>
-                    <option value="2024-03-13T11:00">Mar 13, 11:00 AM</option>
-                    <option value="2024-03-14T11:00">Mar 14, 11:00 AM</option>
-                    <option value="2024-03-14T20:00">Mar 14, 8:00 PM</option>
-                    <option value="2024-03-16T14:00">Mar 16, 2:00 PM</option>
-                    <option value="2024-03-23T11:30">Mar 23, 11:30 AM</option>
-                    <option value="2024-03-30T14:00">Mar 30, 2:00 PM</option>
-                </select>
+                <div class="select-wrapper">
+                    <select id="categoryFilter" class="filter-select">
+                        <option value="all">Any category</option>
+                        <option value="Social Activities">Social Activities</option>
+                        <option value="Hobbies and Passions">Hobbies and Passions</option>
+                        <option value="Health and Wellbeing">Health and Wellbeing</option>
+                        <option value="Business">Business</option>
+                        <option value="Technology">Technology</option>
+                    </select>
+                </div>
+                <div class="select-wrapper">
+                    <select id="dayFilter" class="filter-select">
+                        <option value="all">Any day</option>
+                        <option value="2024-03-13T11:00">Mar 13, 11:00 AM</option>
+                        <option value="2024-03-14T11:00">Mar 14, 11:00 AM</option>
+                        <option value="2024-03-14T20:00">Mar 14, 8:00 PM</option>
+                        <option value="2024-03-16T14:00">Mar 16, 2:00 PM</option>
+                        <option value="2024-03-23T11:30">Mar 23, 11:30 AM</option>
+                        <option value="2024-03-30T14:00">Mar 30, 2:00 PM</option>
+                    </select>
+                </div>
             </div>
 
             <div id="eventsList" class="events-list"></div>
