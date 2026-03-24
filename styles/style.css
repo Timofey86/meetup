@@ -185,21 +185,26 @@ header {
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
-    margin: 12px 0 5px;
+    margin-top: 12px;
     vertical-align: middle;
 }
 
 .event-card div {
     font-size: 14px;
     color: #666;
-    margin-top: 8px;
-    margin-bottom: 10px;
+}
+
+.date-time {
+    margin-bottom: 12px;
 }
 
 .category {
     font-weight: 500;
     line-height: 20px;
     vertical-align: middle;
+    align-content: center;
+    height: 40px;
+    margin-bottom: 8px;
 }
 
 .date-time, .info, .date {
@@ -258,6 +263,13 @@ header {
     height: 20px;
 }
 
+.date {
+    margin-bottom: 12px;
+}
+
+.info {
+    margin-bottom: 30px;
+}
 
 .join {
     margin-top: 60px;

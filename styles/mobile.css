@@ -261,6 +261,19 @@
         height: 15px;
     }
 
+    .online-events > .events-header > a {
+        display: inline-block;
+        white-space: nowrap;
+        font-size: 14px;
+    }
+
+    .online-events > .events-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
     .online-events > .events-grid >.event-card {
         padding: 12px 0;
     }
@@ -269,7 +282,6 @@
         font-size: 20px;
         font-weight: 600;
         line-height: 25px;
-        vertical-align: middle;
     }
 
     .online-events > .events-grid >.event-card  > h3 {
