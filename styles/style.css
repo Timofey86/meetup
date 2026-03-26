@@ -528,7 +528,7 @@ header {
     color: #fff;
     margin: 0 auto;
     padding: 25px 0 40px 0;
-    max-width: 1512px;
+    /*max-width: 1512px;*/
 }
 
 .footer-container {
