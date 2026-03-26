@@ -178,8 +178,11 @@ function filterEvents() {
             event.type === selectedType;
 
         const matchesDistance =
-            selectedDistance === "all" ||
-            (event.type === "offline" && Number(event.distance) === Number(selectedDistance));
+            selectedDistance === "all"
+                ? true
+                : event.type === "online"
+                    ? true
+                    : Number(event.distance) === Number(selectedDistance);
 
         const matchesCategory =
             selectedCategory === "all" ||
